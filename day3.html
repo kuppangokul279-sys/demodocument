@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title> <link rel="stylesheet" href="./style.css">
+    <style>
+        *{
+            background-color: violet;
+        }
+        h1{
+            color: white;
+            text-align: center;
+        }
+        div p3{
+            background-color: yellow;
+        }
+        h1:hover {
+            color:red;
+            background-color: blue;
+        }
+        p:hover{ 
+            color: blue;
+            background-color:burlywood
+        }
+        a:link{
+            color:rgb(228, 87, 6)
+        }
+        a:visited{
+            color:brown;
+        
+
+        }
+        a:active{
+            color:coral
+        }
+        input:focus{
+            outline: 2px solid red;
+        }
+        button:not(.disabled){
+            cursor:pointer;
+        }
+       .para::first-letter{
+        font-size: 30px;
+        color:black;
+
+       }
+       .para::first-line{
+        color:blanchedalmond;
+       }
+       ul li::marker{
+        
+        color: brown;
+
+         
+       }
+       #emoji li::after{
+        content:"😀"
+       }
+       ::placeholder{
+        color: brown;
+        text-transform: uppercase;
+       }
+        </style>
+        </head>
+<body>
+    <H1 style="color: rgb(170, 28, 28)" >CSS</H1>
+    
+    <h2>Inline</h2>
+    <h2>Internal</h2>
+    <h3>External</h2>  
+        <div>
+            <p1>this text will be blue(direct child).</p>
+            <section>
+                <p>thiis text will also be blue(nested grandchild</p>
+            </section>
+        </div>  
+<div>
+    <p>this text will be green.</p>
+    <section>
+        <p>This text will not be green(it's a child of section,not div)</p>
+    </section>
+</div>
+<h1>Heading</h1>
+<p2>This text will be bold.</p>
+<p2>This text will not be bold.</p>
+<h1>Heading</h1>
+<p>This text will be red.</p>
+<div>An intervening element</div>
+<p>This text will also be red.</p>
+<div>
+    <p3>this text will be used in internal</p>
+</div>
+<P>pseudo class</P>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quae quod minus labore hic! Voluptate dignissimos minus sunt nemo modi nostrum quo consequatur deserunt eaque debitis accusantium, esse quod illo.</p>
+<a href=https://www.flipkart.com/ target="_blank">flipkart</a>
+<ul class="pseudo">
+    <li>Java</li>
+    <li>Python</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+    </ul>
+    <input type=text>
+    <br><br>
+    <button>save</button>
+    <button class="disabled">delete</button>
+    <h1>pseudo Element</h1>
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero eaque possimus asperiores at temporibus reiciendis pariatur, dolore eveniet incidunt vel. Blanditiis, totam! Ullam aperiam sint eos fugiat consequatur voluptatibus quas!</p>
+    <p>Changing before bullets and after adding emoji</p>
+    <ul id="emoji">
+        <li>Gokul</li>
+        <li>Jaga</li>
+        <li>santhosh</li>
+        <li>prashanth</li>
+    </ul>
+    <input type=text placeholder="enter your name">
+
+
+
+    

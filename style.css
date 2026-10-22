@@ -1,0 +1,21 @@
+h2{
+    background-color: rgb(190, 47, 47);
+    font-size: 30px;
+}
+div p1{
+    color:rgb(29, 29, 134);
+    font-size: 30px;
+    
+
+}
+div > p {
+    color: rgb(8, 199, 8);
+}
+h1 + p2 {
+    font weight: bold;
+
+}
+h1 ~ p{
+    color: red;
+
+}
